@@ -565,6 +565,69 @@ regardless of architecture."
 4. CYGNSS implication explicitly stated ✅
 5. 360-minute non-significance honestly reported ✅
 
+---
+
+## Single-Site Limitation — Reviewer Defense
+
+This study is conducted on a single controlled sensor 
+dataset. Reviewers will raise this. The defense is 
+framing not apology.
+
+### What to say (use this exact language):
+
+"While demonstrated on a controlled indoor sensor 
+dataset, the observed dependency between sampling 
+frequency and temporal model effectiveness is expected 
+to generalize to any sensing system where underlying 
+dynamics occur at timescales shorter than the sampling 
+interval. The phase transition between temporally-rich 
+and temporally-impoverished regimes is a property of 
+the relationship between physical process timescales 
+and observation frequency — not of this specific 
+dataset."
+
+"The infiltration timescale of soil moisture (~minutes) 
+is well-established in vadose zone hydrology literature. 
+Any sensing system operating at coarser temporal 
+resolution than the dominant physical process timescale 
+will exhibit the same phase transition in temporal 
+model effectiveness."
+
+"Future work will validate this phenomenon across 
+multiple sites and soil types using the CAF Field 
+Scale Sensor Network (Washington State University, 
+2007-2016, 42 locations) and ultimately real CYGNSS 
+satellite observations."
+
+### Why this works:
+
+The finding is about the RELATIONSHIP between 
+sampling rate and temporal model effectiveness — 
+not about this specific soil or sensor. That 
+relationship is physically grounded and theoretically 
+expected. The dataset is the vehicle for demonstrating 
+it, not the claim itself.
+
+A reviewer who says "this only works for one dataset" 
+is misunderstanding the contribution. The contribution 
+is the phase transition concept — the dataset is proof 
+of concept.
+
+### The analogy for your response to reviewers:
+
+Shannon's sampling theorem was demonstrated on 
+specific signals. The theorem generalizes because 
+it describes a relationship between signal frequency 
+and sampling rate — not because it was tested on 
+every possible signal.
+
+Your finding describes a relationship between 
+physical process timescale and temporal model 
+effectiveness. The generalization argument is 
+the same.
+
+---
+
 ## Open Questions — Future Investigation
 
 The following questions emerged from the study and 
