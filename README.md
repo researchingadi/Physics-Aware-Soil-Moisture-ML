@@ -1,4 +1,4 @@
-# Characterizing the Temporal Threshold: When do Sequential Architectures Outperform Feedforward Networks in Soil Moisture Retrieval?
+# "Sampling Rate Modulates Temporal Model Superiority in Soil Moisture Prediction: A Phase Transition Analysis of Evaluation Methodology and Data Resolution"
 
 *Inspired by Boyd et al. (2019) — "High Spatio-Temporal Resolution CYGNSS Soil Moisture Estimates Using Artificial Neural Networks"*
 
