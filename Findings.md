@@ -414,6 +414,9 @@ catastrophically (RMSE 0.0032 → 0.0101). This
 confirms ANN's architectural advantage for sparse 
 sensing scenarios.
 
+
+![Downsampling Study](figures/downsampling_regime_study.png)
+
 ### Implication for CYGNSS
 
 CYGNSS provides sparse temporal observations per 
