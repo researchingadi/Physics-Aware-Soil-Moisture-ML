@@ -472,6 +472,23 @@ Effect size: +31.5%
 10-minute sampling — the boundary where temporal 
 models lose statistical advantage.**
 
+![Phase Transition](figures/phase_transition_significance.png)
+
+*Figure: DM statistic vs sampling rate reveals phase 
+transition between 1-minute (+24.72) and 10-minute 
+(-3.42) resolution. Green bars indicate LSTM superiority, 
+red bars indicate ANN superiority. Dashed lines mark 
+p=0.05 significance thresholds (±1.96). The large 
+negative effect at 10-minute rate (-118.6%) reflects 
+severe LSTM degradation due to data insufficiency 
+(953 test samples vs 9,522 at 1-minute) rather than 
+metric instability. At 360-minute resolution (CYGNSS 
+analog) results are inconclusive due to low statistical 
+power (n=27). Infiltration timescale annotation marks 
+the physical process boundary — downsampling beyond 
+~10 minutes destroys rapid infiltration dynamics 
+essential for temporal model learning.*
+
 ### Key Sentences for Paper
 
 "The Diebold-Mariano test reveals a phase transition 
