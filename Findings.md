@@ -489,6 +489,56 @@ the physical process boundary — downsampling beyond
 ~10 minutes destroys rapid infiltration dynamics 
 essential for temporal model learning.*
 
+---
+
+### Physical Interpretation of Phase Transition
+
+The phase transition between 1-minute and 10-minute 
+sampling has a direct physical explanation rooted in 
+soil moisture infiltration dynamics.
+
+Soil moisture response to irrigation operates on two 
+timescales:
+
+**Fast regime (seconds to minutes):**
+Rapid infiltration through macropores and preferential 
+flow pathways — the dominant signal in the 1-minute 
+dataset. LSTM captures these rapid transitions because 
+consecutive 1-minute readings show meaningful sequential 
+variation. This is the temporal structure LSTM was 
+designed to exploit.
+
+**Slow regime (hours to days):**
+Gradual redistribution through soil matrix via capillary 
+forces. At 10-minute sampling this fast regime is 
+aliased — rapid infiltration events are averaged out 
+or missed entirely. The temporal structure LSTM needs 
+no longer exists in the data.
+
+"Downsampling removes rapid infiltration dynamics 
+which are essential for temporal models to extract 
+predictive structure. Beyond the infiltration 
+timescale (~minutes), sequential observations become 
+effectively decorrelated and temporal memory provides 
+no predictive advantage."
+
+This physical explanation directly connects the 
+statistical phase transition to known soil hydrology — 
+transforming an empirical finding into a physically 
+interpretable result.
+
+**Connection to CYGNSS:**
+NASA CYGNSS revisits each location approximately every 
+7 hours — well beyond both the infiltration timescale 
+and the statistically significant temporal regime 
+identified in this study. Based on these findings, 
+feedforward ANN architectures may be more appropriate 
+than LSTM for CYGNSS soil moisture retrieval — 
+providing physical and statistical justification for 
+Boyd et al. (2019)'s architectural choice.
+
+---
+
 ### Key Sentences for Paper
 
 "The Diebold-Mariano test reveals a phase transition 
