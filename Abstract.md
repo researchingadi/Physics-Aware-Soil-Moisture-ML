@@ -48,6 +48,22 @@ the benefits of temporal modeling."
    controlled comparison eliminates tuning as 
    confounding variable
 
+   ## Limitations and Generalization Defense
+
+**Single-site limitation:**
+"While demonstrated on a CYGNSS-inspired sensor 
+dataset, the observed dependency between sampling 
+frequency and temporal model effectiveness is 
+expected to generalize to systems where underlying 
+dynamics occur at timescales shorter than the 
+sampling interval."
+
+**Future work:**
+"Future work will evaluate this phenomenon across 
+multiple sites and soil conditions using the CAF 
+Field Scale Sensor Network (42 locations, 2007-2016) 
+and real CYGNSS satellite observations."
+
 **Updated paper title:**
 "Evaluation Methodology and Data Resolution Jointly 
 Determine Whether Temporal Architectures Outperform 
