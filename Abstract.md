@@ -5,6 +5,15 @@ Evaluation Methodology and Data Resolution Jointly
 Determine Whether Temporal Architectures Outperform 
 Feedforward Models in Environmental Prediction
 
+## Central Claim
+
+"We observe a statistically significant phase transition 
+in model superiority as sampling frequency decreases — 
+demonstrating that model superiority is not intrinsic 
+to architecture but is data-resolution dependent and 
+statistically verifiable."
+
+
 **Key Contributions:**
 
 1. Temporal leakage inflates LSTM advantage by 3× 
