@@ -482,12 +482,15 @@ p=0.05 significance thresholds (±1.96). The large
 negative effect at 10-minute rate (-118.6%) reflects 
 severe LSTM degradation due to data insufficiency 
 (953 test samples vs 9,522 at 1-minute) rather than 
-metric instability. At 360-minute resolution (CYGNSS 
-analog) results are inconclusive due to low statistical 
-power (n=27). Infiltration timescale annotation marks 
-the physical process boundary — downsampling beyond 
-~10 minutes destroys rapid infiltration dynamics 
-essential for temporal model learning.*
+metric instability. At 360-minute resolution (CYGNSS temporal analog) 
+neither model demonstrates statistically significant 
+superiority (DM=-1.61, p=0.108). This result should 
+be interpreted cautiously — with only 27 test samples, 
+statistical power is insufficient to detect moderate 
+effect sizes. The trend (ANN RMSE=0.0072 vs LSTM 
+RMSE=0.0079) is consistent with ANN superiority 
+observed at 60-minute resolution, but cannot be 
+confirmed at conventional significance levels.*
 
 ---
 
