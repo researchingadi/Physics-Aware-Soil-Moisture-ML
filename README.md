@@ -1001,7 +1001,7 @@ Boyd, D. R., Senyurek, V., Lei, F., Gurbuz, A. C., Kurum, M., & Moorhead, R. (20
 
 **Adi Singh**
 MS in Cybersecurity Operations and Defense — Mississippi State University
-GitHub: [@kermitthedev](https://github.com/kermitthedev)
+GitHub: [@kermitthedev](https://github.com/operator2036)
 
 ---
 
