@@ -1000,8 +1000,8 @@ Boyd, D. R., Senyurek, V., Lei, F., Gurbuz, A. C., Kurum, M., & Moorhead, R. (20
 ## Author
 
 **Adi Singh**
-MS in Cybersecurity Operations and Defense — Mississippi State University
-GitHub: [@kermitthedev](https://github.com/operator2036)
+Mississippi State University
+GitHub: [@kermitthedev](https://github.com/researchingadi)
 
 ---
 
