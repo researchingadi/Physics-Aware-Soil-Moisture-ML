@@ -1001,7 +1001,7 @@ Boyd, D. R., Senyurek, V., Lei, F., Gurbuz, A. C., Kurum, M., & Moorhead, R. (20
 
 **Adi Singh**
 Mississippi State University
-GitHub: [@kermitthedev](https://github.com/researchingadi)
+GitHub: [@researchingadi](https://github.com/researchingadi)
 
 ---
 
