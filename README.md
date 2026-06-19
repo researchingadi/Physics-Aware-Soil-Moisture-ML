@@ -1,16 +1,31 @@
-# "Sampling Rate Modulates Temporal Model Superiority in Soil Moisture Prediction: A Phase Transition Analysis of Evaluation Methodology and Data Resolution"
+# Sampling Rate and Evaluation Methodology Modulate Temporal Model Superiority in Soil Moisture Prediction: A Phase Transition Analysis
 
-*Inspired by Boyd et al. (2019) — "High Spatio-Temporal Resolution CYGNSS Soil Moisture Estimates Using Artificial Neural Networks"*
+**Adi Singh** | MS Cybersecurity Operations & Defense, Mississippi State University  
+*Inspired by Eroglu et al. (2019) — "High Spatio-Temporal Resolution CYGNSS Soil Moisture Estimates Using Artificial Neural Networks"*
 
 ---
-(> **Note:**
-> These results reflect the complete methodological 
-> evolution of this study. See [Findings.md](Findings.md) for 
-> the full scientific story — from initial random split results 
-> to corrected chronological evaluation findings.
-> 
-> **Phase 1 (Random Split):** ANN wins by 61.7%  
-> **Phase 4 (Chronological Split):** LSTM wins by 18.9%  
+
+![Status](https://img.shields.io/badge/Status-Complete%20%26%20Closed-brightgreen)
+![Submission](https://img.shields.io/badge/Target-IEEE%20GRSL-blue)
+![Reproducible](https://img.shields.io/badge/Reproducible-Seed%2042-orange)
+![PyTorch](https://img.shields.io/badge/Framework-PyTorch%201.13-red)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+---
+
+> **Study Status:** This research is complete and closed for further experimentation.
+> All results are fully verified against seeded (seed=42) Colab runs.
+> See [FINDINGS.md](FINDINGS.md) for the complete scientific record —
+> methods, all verified numbers, methodological evolution, and
+> the Richards Equation diagnostic.
+>
+> | Phase | Protocol | Winner | Effect |
+> |-------|----------|--------|--------|
+> | Phase 1 | Random split | ANN | +61.7% |
+> | Phase 2 | Chronological split (raw data) | — | Distribution shift failure |
+> | Phase 3 | Chronological split + augmentation | LSTM | +20.8% |
+> | Phase 4 (Final) | Seeded + chronological | LSTM | +20.8% (verified) |
+>
 > The evaluation methodology is itself a key finding.
 
 ## Overview
