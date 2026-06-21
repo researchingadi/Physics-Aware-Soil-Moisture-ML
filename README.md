@@ -1,8 +1,9 @@
 # Sampling Rate and Evaluation Methodology Modulate Temporal Model Superiority in Soil Moisture Prediction: A Phase Transition Analysis
+Available on SSRN 
 
 **Adi Singh** | BS CS/MATH, Mississippi State University  
 *Inspired by Eroglu et al. (2019) — "High Spatio-Temporal Resolution CYGNSS Soil Moisture Estimates Using Artificial Neural Networks"*
-*Paper available on SSRN*
+
 
 ---
 
