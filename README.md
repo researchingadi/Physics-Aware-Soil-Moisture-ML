@@ -40,7 +40,7 @@ evaluation design determines scientific conclusions.
 **Central finding:**
 Non-causal temporal sampling (random train/test split) 
 inflates apparent LSTM advantage by 3× compared to 
-chronological evaluation — the correct paradigm for 
+chronological evaluation,  the correct paradigm for 
 operational forecasting. Under random splits LSTM 
 appears to win by 15-17%. Under chronological 
 evaluation the true advantage is 6% at an optimal 
