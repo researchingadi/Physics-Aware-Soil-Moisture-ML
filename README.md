@@ -175,8 +175,7 @@ This finding aligns with Boyd et al. (2019)'s choice of a fully connected ANN ov
 ## Uncertainty Quantification — Monte Carlo Dropout
 
 Standard neural networks produce single-point predictions with no measure of 
-confidence. In remote sensing applications, uncertainty estimates are critical 
-— a soil moisture reading without confidence bounds is scientifically incomplete.
+confidence. In remote sensing applications, uncertainty estimates are critical, a soil moisture reading without confidence bounds is scientifically incomplete.
 
 This study extends the ANN with Monte Carlo Dropout uncertainty quantification,
 running 100 stochastic forward passes to generate a full predictive distribution
