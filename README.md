@@ -80,12 +80,12 @@ minute-level resolution?
 Is temporal order statistically necessary for accurate 
 soil moisture prediction, or do spatial relationships 
 between sensor depth layers contain sufficient 
-predictive information — and what does this reveal 
+predictive information, and what does this reveal 
 about the underlying physics?
 
 **Tertiary Question**
 At what temporal resolution and sequence length does 
-LSTM gain competitive advantage over ANN — and can 
+LSTM gain competitive advantage over ANN, and can 
 a model learn to implicitly encode diurnal physical 
 forcing without explicit temporal features?
 
